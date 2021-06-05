@@ -1512,7 +1512,6 @@ h6 {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-    color: inherit
 }
 
 .h1 .small,
@@ -8069,5 +8068,5 @@ button.close {
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: white !important;
 }
