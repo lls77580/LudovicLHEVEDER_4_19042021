@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
@@ -229,12 +230,13 @@ th {
     padding: 0
 }
 
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
     *,
-    :after,
-    :before {
+     :after,
+     :before {
         color: #000 !important;
         text-shadow: none !important;
         background: 0 0 !important;
@@ -1437,7 +1439,8 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    width: 100%;
 }
 
 .img-rounded {
@@ -2008,11 +2011,6 @@ pre code {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px
 }
 
 .col-lg-1,
@@ -3018,14 +3016,12 @@ table th[class*=col-] {
 
 .table-responsive {
     min-height: .01%;
-    overflow-x: auto
 }
 
 @media screen and (max-width:767px) {
     .table-responsive {
         width: 100%;
         margin-bottom: 15px;
-        overflow-y: hidden;
         -ms-overflow-style: -ms-autohiding-scrollbar;
         border: 1px solid #ddd
     }
@@ -4373,7 +4369,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
@@ -5089,10 +5085,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     border-top: 1px solid transparent;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
-}
-
-.navbar-collapse.in {
-    overflow-y: auto
 }
 
 @media (min-width:768px) {
@@ -7600,7 +7592,7 @@ button.close {
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
     background-repeat: repeat-x
 }
 
@@ -7611,7 +7603,7 @@ button.close {
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
     background-repeat: repeat-x
 }
 
@@ -8074,4 +8066,8 @@ button.close {
     .hidden-print {
         display: none !important
     }
+}
+
+.tc-white {
+    color: #F3976C !important;
 }

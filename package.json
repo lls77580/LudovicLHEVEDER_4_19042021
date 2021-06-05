@@ -1,7 +1,6 @@
 {
   "name": "projet_4_la-chouette-agence",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/lls77580/LudovicLHEVEDER_4_19042021/issues"
   },
-  "homepage": "https://github.com/lls77580/LudovicLHEVEDER_4_19042021#readme"
+  "homepage": "https://github.com/lls77580/LudovicLHEVEDER_4_19042021#readme",
+  "description": ""
 }
